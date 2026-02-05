@@ -1,8 +1,9 @@
 //変数の宣言
-let BMI
+let weight=68
+let height=1.7
 
 //四則演算
-BMI=68/(1.7*1.7)
+let BMI=weight/(height*height)
 
 //コンソールへの出力
 console.log(BMI)
